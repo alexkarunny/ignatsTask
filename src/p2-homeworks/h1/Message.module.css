@@ -1,0 +1,64 @@
+.message{
+    width: 300px;
+
+    padding: 10px;
+    background-color: dimgrey;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.avaMain {
+    justify-self: center;
+    align-self: end;
+    width: 50px;
+    height: 50px;
+}
+
+.avaPic {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.post {
+    padding: 15px;
+    background-color: darkslategrey;
+    border-radius: 15px 15px 15px 0px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+}
+
+.postName {
+    color: blueviolet;
+}
+
+.postBox {
+    background-color: darkslategrey;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px 9px 0 9px;
+
+    position: absolute;
+    bottom: 0px;
+    left: -18px;
+}
+
+.postBoxС {
+    background-color: dimgrey;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: -20px;
+}
+
+.postTime {
+    justify-self: left;
+    align-self: end;
+    opacity: .5;
+    position: relative;
+    bottom: -10px;
+}
