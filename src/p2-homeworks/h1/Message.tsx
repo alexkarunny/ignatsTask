@@ -19,7 +19,7 @@ export function Message(props: MessagePropsType) {
                     <div>{props.message}</div>
                 </div>
                 <div className={classes.postTime}>
-                    <div >{props.time}</div>
+                    <div>{props.time}</div>
                 </div>
                 <div className={classes.postBox}></div>
                 <div className={classes.postBoxС}></div>
